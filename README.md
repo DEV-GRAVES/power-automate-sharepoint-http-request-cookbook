@@ -33,21 +33,21 @@
 
 ---
 
-## What are you looking for?
+## Index
 
 Here are the sections that we have so far:
 
+- [Index](#index)
 - [Introduction](#introduction)
-  - [Concepts](#concepts)
-    - [What is an endpoint?](#what-is-an-endpoint)
-    - [What is JSON?](#what-is-json)
-  - [What are you looking for?](#what-are-you-looking-for)
-  - [Lists](#lists)
-    - [Get all lists for a SharePoint site](#get-all-lists-for-a-sharepoint-site)
-    - [Find a list](#find-a-list)
-    - [Get the columns for a list](#get-the-columns-for-a-list)
-  - [🙏 Thanks to](#-thanks-to)
-  - [💪 Contributing](#-contributing)
+- [Concepts](#concepts)
+  - [What is an endpoint?](#what-is-an-endpoint)
+  - [What is JSON?](#what-is-json)
+- [Lists](#lists)
+  - [Get all lists for a SharePoint site](#get-all-lists-for-a-sharepoint-site)
+  - [Find a list](#find-a-list)
+  - [Get the columns for a list](#get-the-columns-for-a-list)
+- [🙏 Thanks to](#-thanks-to)
+- [💪 Contributing](#-contributing)
 
 ---
 
@@ -82,13 +82,13 @@ https://manueltgomescom.sharepoint.com/sites/Test/_api/web/lists/
 
 Again, I'm oversimplifying this but what's important is that you understand the overall concept.
 
-[Back to the index](#what-are-you-looking-for)
+[Back to the index](#index)
 
 ### What is JSON?
 
 It's a pretty broad question, and there are millions of pages, videos, and other resources explaining what it is. I won't replicate them here, but it would be helpful to understand at least the fundamentals to take full advantage of the information provided by the endpoints.
 
-[Back to the index](#what-are-you-looking-for)
+[Back to the index](#index)
 
 ---
 
@@ -110,7 +110,7 @@ You'll get something like this:
 
 <img src="./Assets/small-Screenshot_2021-12-27_at_09_33_13.png" alt="power-automate-sharepoint-http-request-cookbook pull-requests"/>
 
-[Back to the index](#what-are-you-looking-for)
+[Back to the index](#index)
 
 ### Find a list
 
@@ -125,7 +125,7 @@ If you don't know the ID of the list, you can still find it by name:
 
 Please note that we're searching for **one** list with that name. If the list doesn't exist, the Flow will fail. So please be sure that the list exists or that you deal with [errors accordigly](https://manueltgomes.com/microsoft/powerautomate/plan-for-errors-and-timeouts/).
 
-[Back to the index](#what-are-you-looking-for)
+[Back to the index](#index)
 
 ### Get the columns for a list
 
@@ -135,7 +135,7 @@ Please note that we're searching for **one** list with that name. If the list do
 _api/web/lists/getbytitle('employee')/Fields
 ```
 
-[Back to the index](#what-are-you-looking-for)
+[Back to the index](#index)
 
 ---
 
@@ -143,7 +143,7 @@ _api/web/lists/getbytitle('employee')/Fields
 
 Thanks to everyone that reached out. If you submit anything, you'll get your name here :).
 
-[Back to the index](#what-are-you-looking-for)
+[Back to the index](#index)
 
 ---
 
