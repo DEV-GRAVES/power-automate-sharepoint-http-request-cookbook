@@ -114,7 +114,7 @@ Please note that we're searching for **one** list with that name. If the list do
 <img src="./Assets/small-Screenshot_2021-12-27_at_09_33_13.png" alt="power-automate-sharepoint-http-request-cookbook pull-requests"/>
 
 ```
-\_api/web/lists/getbytitle('employee')/Fields
+_api/web/lists/getbytitle('employee')/Fields
 ```
 
 ---
