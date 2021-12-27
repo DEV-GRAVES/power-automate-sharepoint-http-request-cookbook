@@ -33,6 +33,24 @@
 
 ---
 
+## What are you looking for?
+
+Here are the sections that we have so far:
+
+- [Introduction](#introduction)
+  - [Concepts](#concepts)
+    - [What is an endpoint?](#what-is-an-endpoint)
+    - [What is JSON?](#what-is-json)
+  - [What are you looking for?](#what-are-you-looking-for)
+  - [Lists](#lists)
+    - [Get all lists for a SharePoint site](#get-all-lists-for-a-sharepoint-site)
+    - [Find a list](#find-a-list)
+    - [Get the columns for a list](#get-the-columns-for-a-list)
+  - [🙏 Thanks to](#-thanks-to)
+  - [💪 Contributing](#-contributing)
+
+---
+
 ## Introduction
 
 I'm compiling a list of all SharePoint endpoints that I find helpful, and I think you may too. I'm focusing on Power Automate, but you can use them with other tools.
@@ -64,20 +82,13 @@ https://manueltgomescom.sharepoint.com/sites/Test/_api/web/lists/
 
 Again, I'm oversimplifying this but what's important is that you understand the overall concept.
 
+[Back to the index](#what-are-you-looking-for)
+
 ### What is JSON?
 
 It's a pretty broad question, and there are millions of pages, videos, and other resources explaining what it is. I won't replicate them here, but it would be helpful to understand at least the fundamentals to take full advantage of the information provided by the endpoints.
 
----
-
-## What are you looking for?
-
-Here are the sections that we have so far:
-
-- [Lists](#lists)
-  - [Get all lists for a SharePoint site](#get-all-lists-for-a-sharepoint-site)
-  - [Find a list](#find-a-list)
-  - [Get the columns for a list](#get-the-columns-for-a-list)
+[Back to the index](#what-are-you-looking-for)
 
 ---
 
@@ -132,6 +143,8 @@ _api/web/lists/getbytitle('employee')/Fields
 
 Thanks to everyone that reached out. If you submit anything, you'll get your name here :).
 
+[Back to the index](#what-are-you-looking-for)
+
 ---
 
 ## 💪 Contributing
@@ -142,5 +155,3 @@ Submissions are always welcome, so please <a href="https://github.com/ManuelTGom
 <p align="center">
 Made in ☀️ Portugal with ❤️
 </p>
-```
-````
