@@ -75,6 +75,9 @@ It's a pretty broad question, and there are millions of pages, videos, and other
 Here are the sections that we have so far:
 
 - [Lists](#lists)
+  - [Get all lists for a SharePoint site](#get-all-lists-for-a-sharepoint-site)
+  - [Find a list](#find-a-list)
+  - [Get the columns for a list](#get-the-columns-for-a-list)
 
 ---
 
@@ -96,6 +99,8 @@ You'll get something like this:
 
 <img src="./Assets/small-Screenshot_2021-12-27_at_09_33_13.png" alt="power-automate-sharepoint-http-request-cookbook pull-requests"/>
 
+[Back to the index](#what-are-you-looking-for)
+
 ### Find a list
 
 If you don't know the ID of the list, you can still find it by name:
@@ -109,6 +114,8 @@ If you don't know the ID of the list, you can still find it by name:
 
 Please note that we're searching for **one** list with that name. If the list doesn't exist, the Flow will fail. So please be sure that the list exists or that you deal with [errors accordigly](https://manueltgomes.com/microsoft/powerautomate/plan-for-errors-and-timeouts/).
 
+[Back to the index](#what-are-you-looking-for)
+
 ### Get the columns for a list
 
 <img src="./Assets/small-Screenshot_2021-12-27_at_09_33_13.png" alt="power-automate-sharepoint-http-request-cookbook pull-requests"/>
@@ -116,6 +123,8 @@ Please note that we're searching for **one** list with that name. If the list do
 ```
 _api/web/lists/getbytitle('employee')/Fields
 ```
+
+[Back to the index](#what-are-you-looking-for)
 
 ---
 
