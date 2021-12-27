@@ -4,7 +4,7 @@
 <h5 align="center">(in the making)</h5>
 
 <p align="center">
-<a href="https://github.com/ManuelTGomes/power-automate-sharepoint-http-request-cookbook/blob/master/LICENSE" target="blank">
+<a href="https://github.com/ManuelTGomes/power-automate-sharepoint-http-request-cookbook/blob/main/LICENSE" target="blank">
 <img src="https://img.shields.io/github/license/ManuelTGomes/power-automate-sharepoint-http-request-cookbook?style=flat-square" alt="power-automate-sharepoint-http-request-cookbook license" />
 </a>
 <a href="https://github.com/ManuelTGomes/power-automate-sharepoint-http-request-cookbook/fork" target="blank">
