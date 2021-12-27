@@ -53,7 +53,8 @@ Here are the sections that we have so far:
 
 ## Introduction
 
-I'm compiling a list of all SharePoint endpoints that I find helpful, and I think you may too. I'm focusing on Power Automate, but you can use them with other tools.
+I'm compiling a list of all SharePoint endpoints that I find helpful, and I think you may too. I'm focusing on Power Automate with the [Send an HTTP request to SharePoint action](https://manueltgomes.com/reference/power-automate-action-reference/send-an-http-request-to-sharepoint-action/), but you can use them with other tools.
+
 If you have any questions on how to use them, please go to [Power Automate: Get dynamic information from SharePoint](https://tgom.es/ymar6), where I do my best to explain the concepts and provide examples.
 
 ---
@@ -123,7 +124,7 @@ If you don't know the ID of the list, you can still find it by name:
 
 ```
 
-Please note that we're searching for **one** list with that name. If the list doesn't exist, the Flow will fail. So please be sure that the list exists or that you deal with [errors accordigly](https://manueltgomes.com/microsoft/powerautomate/plan-for-errors-and-timeouts/).
+Please note that we're searching for **one** list with that name. If the list doesn't exist, the Flow will fail. So please be sure that the list exists or that you deal with [errors accordingly](https://manueltgomes.com/microsoft/powerautomate/plan-for-errors-and-timeouts/).
 
 [Back to the index](#index)
 
